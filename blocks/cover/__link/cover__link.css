@@ -36,8 +36,7 @@
   @media screen and (max-width: 1024px) {
     .cover__link {
       min-height: 640px;
-      padding-left: 0;
-      padding-right: 0;
+     
     }    
   }
 
