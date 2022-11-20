@@ -12,14 +12,6 @@
   line-height: 36px;
 }
 
-@media screen and (max-width: 320px) {
-  .lead__subtitle {
-    margin: 16px auto 40px;
-    font-size: 16px;
-    line-height: 20px;
-  }
-} 
-
 @media screen and (max-width: 1024px) {
   .lead__subtitle {
     margin-bottom: 56px;
@@ -31,3 +23,11 @@
     margin: 26px auto 63px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .lead__subtitle {
+    margin: 16px auto 40px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+} 

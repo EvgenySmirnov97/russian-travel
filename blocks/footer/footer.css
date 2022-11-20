@@ -10,10 +10,9 @@
   align-items: flex-start;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1024px) {
   .footer {
-   flex-direction: column;
-   margin: 0 118px 0 16px;
+    max-width: 928px;
   }
 }
 
@@ -24,15 +23,17 @@
     padding: 0 auto;
   }
 }
-@media screen and (max-width: 1024px) {
-  .footer {
-    max-width: 928px;
-  }
-}
+
 @media screen and (max-width: 768px) {
   .footer {
     max-width: 720px;
     margin: 0;
     padding-right: 24px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .footer {
+   flex-direction: column;
   }
 }

@@ -4,21 +4,22 @@
     padding-top: 17px;
 }
 
-@media screen and (max-width: 320px) {
-    .place__website {
-    margin: 32px 16px 32px;
-  }
-}
-
-@media screen and (max-width: 600px) {
-    .place__website {
-    margin: 32px auto 32px;
-    max-width: 288px;
-  }
-}
 
 @media screen and (max-width: 768px) {
     .place__website {
     max-width: 352px;
   }
+}
+
+@media screen and (max-width: 600px) {
+  .place__website {
+  margin: 32px auto 32px;
+  max-width: 288px;
+}
+}
+
+@media screen and (max-width: 320px) {
+  .place__website {
+  margin: 32px 16px 32px;
+}
 }

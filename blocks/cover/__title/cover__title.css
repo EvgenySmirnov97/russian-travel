@@ -10,20 +10,6 @@
     color: #FFFFFF; 
 }
 
-@media screen and (max-width: 320px) {
-    .cover__title {
-      font-size: 32px;
-      line-height: 35px;
-    }
-
-}
-
-@media screen and (max-width: 410px) {
-    .cover__title {
-        font-size: 42px;
-        line-height: 49px;
-    }
-}
 @media screen and (max-width: 500px) {
     .cover__title {
         font-size: 50px;
@@ -32,11 +18,18 @@
     }
 }
 
-@media screen and (max-width: 610px) {
+@media screen and (max-width: 410px) {
     .cover__title {
-        margin: 0 auto 16px;
-        font-size: 61px;
-        line-height: 64px;
+        font-size: 42px;
+        line-height: 49px;
     }
+}
+
+@media screen and (max-width: 320px) {
+    .cover__title {
+      font-size: 32px;
+      line-height: 35px;
+    }
+
 }
 

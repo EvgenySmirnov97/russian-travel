@@ -3,14 +3,7 @@
   padding-right: 148px;
   padding-left: 148px;
   max-width: 984px;
-  min-height: 1005px;
 }
-
-@media screen and (max-width: 320px) {
-    .lead {
-        max-width: 320px;
-    }
-} 
 
 @media screen and (max-width: 1024px) {
     .lead {
@@ -30,6 +23,8 @@
     }
 }
 
-
-
-
+@media screen and (max-width: 320px) {
+    .lead {
+        max-width: 320px;
+    }
+} 

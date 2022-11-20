@@ -18,3 +18,12 @@
        top: 48px;
     }
 }
+
+@media screen and (max-width: 320px) {
+  .header__lang-link_en {
+    font-size: 22px;
+    line-height: 20px;
+    right: 16px;
+    top: 32px;
+  }
+}
