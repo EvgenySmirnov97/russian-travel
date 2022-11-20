@@ -1,0 +1,27 @@
+.grid__item {
+  max-width: 284px;
+  min-height: 213px;
+  width: 100%;
+}
+
+@media screen and (max-width: 320px) {
+  .grid__item {
+    max-width: 287px;
+    margin-bottom: 9px;
+  }
+  .grid__item:last-of-type {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .grid__item {
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .grid__item {
+    max-width: 352px;
+  }
+}
