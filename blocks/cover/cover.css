@@ -5,6 +5,13 @@
   padding-right: 48px;
 }
 
+@media screen and (max-width: 1200px) {
+  .cover {
+    min-height: 700px;
+  }
+}
+
+
 
 @media screen and (max-width: 1024px) {
   .cover {
@@ -14,9 +21,27 @@
   }
 }
 
+@media screen and (max-width: 980px) {
+  .cover {
+    min-height: 520px;
+  }
+}
+
 @media screen and (max-width: 763px) {
   .cover {
     min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .cover {
+    min-height: 270px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .cover {
+    min-height: 220px;
   }
 }
 
