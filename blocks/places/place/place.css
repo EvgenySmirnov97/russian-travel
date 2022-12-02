@@ -7,6 +7,7 @@
   grid-template-rows: repeat(2, auto);
   column-gap: 40px;
   row-gap: 48px;
+  object-fit: contain;
 }
 
 @media screen and (max-width: 1024px) {
@@ -17,9 +18,10 @@
 }
 @media screen and (max-width: 768px) {
   .place {
-    margin: 0 0 72px;
+    margin: 0px 0 56px;
     max-width: 720px;
     column-gap: 28px;
+    row-gap: 44px;
   }
 }
 
@@ -34,6 +36,7 @@
 @media screen and (max-width: 320px) {
   .place {
     margin: 0 0 48px;
-    max-width: 720px;
+    max-width: 320px;
+  
   }
 } 

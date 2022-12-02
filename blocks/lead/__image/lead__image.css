@@ -1,8 +1,9 @@
 .lead__image {
     width: 100%;
     max-width: 984px;
-    min-height: 615px;
     display: block;
+    object-fit: contain;
+    object-position: center bottom;
     }
 
 @media screen and (max-width: 1024px) {

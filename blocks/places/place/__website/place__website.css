@@ -1,7 +1,9 @@
 .place__website {
-    max-width: 456px;
-    align-self: end;
-    padding-top: 17px;
+  font-family: 'Inter';
+  font-style: normal;
+  max-width: 456px;
+  align-self: end;
+  padding-top: 17px;
 }
 
 
@@ -20,6 +22,6 @@
 
 @media screen and (max-width: 320px) {
   .place__website {
-  margin: 32px 16px 32px;
+  margin: 10px 16px 32px;
 }
 }

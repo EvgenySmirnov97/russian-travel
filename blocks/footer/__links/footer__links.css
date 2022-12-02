@@ -1,4 +1,5 @@
 .footer__links {
+   font-family: 'Inter';
    display: flex;
    gap: 0 18px;
 }

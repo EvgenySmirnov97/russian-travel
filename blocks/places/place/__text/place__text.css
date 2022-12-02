@@ -1,0 +1,11 @@
+.place__text {
+    font-family: 'Inter';
+    font-style: normal;
+    margin: 0;
+} 
+
+ 
+
+.place__text:not(:last-child) { 
+    margin: 0 0 24px;
+} 
