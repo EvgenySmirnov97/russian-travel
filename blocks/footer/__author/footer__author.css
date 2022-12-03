@@ -2,7 +2,6 @@
   margin: 0;
   max-width: 186px;
   right: 48px;
-  bottom: 24px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
@@ -22,17 +21,17 @@
   .footer__author {
     margin: 19px auto 0;
   }
-} 
+}
 
 @media screen and (max-width: 450px) {
   .footer__author {
     margin: 10px auto 0;
   }
-} 
+}
 
 @media screen and (max-width: 320px) {
   .footer__author {
     margin-top: 48px;
     margin-left: 0;
   }
-} 
+}

@@ -37,8 +37,7 @@
   @media screen and (max-width: 1024px) {
     .cover__link {
       min-height: 640px;
-     
-    }    
+    }
   }
 
   @media screen and (max-width: 968px) {
@@ -59,10 +58,8 @@
     }
   }
 
-  
   @media screen and (max-width: 320px) {
     .cover__link {
       min-height: 200px;
-
     }
   }
