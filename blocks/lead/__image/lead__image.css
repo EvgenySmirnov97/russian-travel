@@ -6,26 +6,8 @@
     object-position: center bottom;
     }
 
-@media screen and (max-width: 1024px) {
-    .lead__image {
-        max-width: 928px;
-        min-height: 580px;
-    }
-}
-
 @media screen and (max-width: 768px) {
     .lead__image {
-        max-width: 768px;
-        min-height: 480px;
-        padding-left: 0;
-        padding-right: 0;
-    }
-}
-
-@media screen and (max-width: 568px) {
-    .lead__image {
-        max-width: 568px;
-        min-height: 410px;
         padding-left: 0;
         padding-right: 0;
     }
@@ -37,4 +19,3 @@
         min-height: 200px;
     }
 }
-
