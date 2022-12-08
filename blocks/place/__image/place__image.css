@@ -23,6 +23,7 @@
 @media screen and (max-width: 609px) {
   .place__image {
   margin: 0px auto 0px;
+  display: block;
 }
 }
 

@@ -1,5 +1,5 @@
 .place__website {
-  font-family: 'Inter' Arial, sans-serif;
+  font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
   max-width: 456px;
   align-self: end;
@@ -14,7 +14,7 @@
 
 @media screen and (max-width: 600px) {
   .place__website {
-  margin: 32px auto 32px;
+  margin: 0;
   max-width: 288px;
 }
 }
