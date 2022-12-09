@@ -51,5 +51,6 @@
   .place {
     margin: 0 0 48px;
     max-width: 320px;
+    row-gap: 0px;
   }
 }
